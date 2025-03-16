@@ -1,0 +1,167 @@
+﻿/* ============================= */
+/*      Vietnam Guide Styles     */
+/* ============================= */
+
+/* General Styles */
+body {
+    font-family: Cambria, serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-align: center;
+}
+
+/* h2 Headings */
+h2 {
+    color: lightblue;
+    font-size: 28px;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Intro Section */
+.intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: left; 
+}
+
+.intro-img {
+    width: 45%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.intro-text {
+    width: 50%;
+    font-size: 18px;
+    color: #555;
+    text-align: left;
+    line-height: 1.6;
+}
+
+/* Top Destinations  */
+.destinations-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw; 
+    padding: 20px 0;
+    background-color: white;
+    gap: 0;
+}
+
+.destination-box {
+    flex: 1; 
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 0 30px; 
+}
+
+.destination-box img {
+     width: 100%;
+    max-width: 400px; /* Slightly larger images */
+    height: 250px; /* Ensure height consistency */
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Essential Info & Must-Try Dishes */
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 40px auto;
+    flex-wrap: nowrap;
+}
+
+.info-box {
+    width: 45%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-list,
+.content-ul {
+    font-size: 18px;
+    color: #555;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Travel Tips Section */
+.travel-tips {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+button {
+    background-color: lightblue;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #87CEEB;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .intro-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .intro-img {
+        width: 80%;
+    }
+
+    .intro-text {
+        width: 90%;
+        text-align: center;
+    }
+
+    .destinations-container,
+    .info-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .destination-box,
+    .info-box {
+        width: 90%;
+    }
+}
