@@ -2,11 +2,23 @@
 
 /* japanPage.css */
 
+body {
+    background: url(kendrick_pictures/cherry_blossoms.png) repeat-y fixed left center, 
+                url(kendrick_pictures/cherry_blossoms.png) repeat-y fixed right center;
+    background-size: 150px auto;
+    background-color: #ffebef;
+    
+}
+
 div {
     background-color: ivory;
     padding: 20px;
     margin: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+main > div {
+    margin: 40px;
 }
 
 #title {
@@ -61,7 +73,8 @@ ul {
 }
 
 ul li {
-    padding: 5px 0;
+    padding: 4px 0;
+    text-align: left;
 }
 
 
@@ -75,13 +88,13 @@ ul li {
 
 .log {
     background-color: #fff;
-    padding: 15px;
+    padding: 25px 15px;
     width: 30%;
 }
 
 .log img {
     width: 100%;
-    height: auto;
+    height: 50%;
 }
 
 .log p {
