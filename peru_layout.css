@@ -4,27 +4,32 @@ html
 {
     background-color: peachpuff;
 }
-
+.background_box
+{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 0;
+}
 main
 {
+    flex: 1;
     float:left;
     position:relative;
     width: 80%;
-    background-color:peachpuff;
+    background-color:white;
 
 }
 
 body
 {
-    background-color: peachpuff;
+    background-color: white;
     font-family: Cambria, sans-serif;
     color: #555555;
     font-size: 15pt;
 }
-.background_box
-{
-    background-color: white;
-}
+
 header, footer
 {
     background-color: peachpuff;
@@ -33,6 +38,7 @@ header, footer
     text-align: center;
     padding: 1px, 0;
     width: 100%;
+    margin-top: auto;
 }
 
 nav
@@ -114,7 +120,7 @@ h5
     border-radius: 10px;
     gap: 20px;
     padding: 5px 5px 5px 5px;
-    margin: 40px auto;
+    margin: 40px 20px;
     flex: fit-content;
 }
 
@@ -128,7 +134,7 @@ h5
     border-radius: 10px;
     gap: 20px;
     padding: 30px 30px 30px 30px;
-    margin: 40px auto;
+    margin: 40px 20px;
     flex: fit-content;
 }
 
@@ -149,7 +155,7 @@ h5
     border-radius: 10px;
     gap: 20px;
     padding: 10px 30px 30px 10px;
-    margin: 40px auto;
+    margin: 40px 20px;
     flex-direction: column;
 }
 
@@ -215,11 +221,12 @@ aside
     display: flex;
     position: relative;
     width: 18%;
-    background-color: peachpuff;
+    background-color: white;
     color: #555555;
     font-weight: lighter;
     padding: 10px;
     flex-direction: column;
+    margin-top: 0;
 }
 
 .aside_box
