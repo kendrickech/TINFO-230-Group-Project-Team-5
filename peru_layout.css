@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+html
+{
+    background-color: peachpuff;
+}
+
+main
+{
+    float:left;
+    position:relative;
+    width: 80%;
+    background-color:peachpuff;
+
+}
+
+body
+{
+    background-color: peachpuff;
+    font-family: Cambria, sans-serif;
+    color: #555555;
+    font-size: 15pt;
+}
+.background_box
+{
+    background-color: white;
+}
+header, footer
+{
+    background-color: peachpuff;
+    color: white;
+    text-shadow: -1px -1px 0 lightblue, 1px -1px 0 lightblue, -1px 1px 0 lightblue, 1px 1px 0 lightblue;
+    text-align: center;
+    padding: 1px, 0;
+    width: 100%;
+}
+
+nav
+{
+    background-color: peachpuff;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+nav a
+{
+    color: white;
+    text-shadow: -1px -1px 0 lightblue, 1px -1px 0 lightblue, -1px 1px 0 lightblue, 1px 1px 0 lightblue;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+}
+
+
+h1
+{
+    color: white;
+    text-shadow: -1px -1px 0 lightblue, 1px -1px 0 lightblue, -1px 1px 0 lightblue, 1px 1px 0 lightblue;
+    text-align: center;
+    font-size:45px;
+}
+
+h2
+{
+    text-align: center;
+    color: lightslategray;
+    text-shadow: -1px -1px 4px #555;
+    font-size: 40px;
+    text-decoration: underline;
+    font-weight: lighter;
+}
+
+h3
+{
+    text-align: center;
+    text-decoration: underline;
+    color: lightslategray;
+    text-shadow: -1px -1px 3px lightslategray;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+h4
+{
+    text-align: right;
+    color: tan;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: underline;
+    text-shadow: -1px -1px 2px lightslategray;
+}
+
+h5
+{
+    text-align: center;
+    color: #555555;
+    text-decoration: underline;
+    font-weight: lighter;
+    font-size: 30px;
+    text-shadow: -1px -1px 2px lightslategray;
+}
+
+.heading_box
+{
+    text-align: center;
+    background-color: floralwhite;
+    box-shadow: -5px -5px 8px rgba(0,0,0,0.2), -5px 5px 8px rgba(0,0,0,0.2), 5px -5px 8px rgba(0,0,0,0.2), 5px 5px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    gap: 20px;
+    padding: 5px 5px 5px 5px;
+    margin: 40px auto;
+    flex: fit-content;
+}
+
+.intro_container
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: floralwhite;
+    box-shadow: -5px -5px 8px rgba(0,0,0,0.2), -5px 5px 8px rgba(0,0,0,0.2), 5px -5px 8px rgba(0,0,0,0.2), 5px 5px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    gap: 20px;
+    padding: 30px 30px 30px 30px;
+    margin: 40px auto;
+    flex: fit-content;
+}
+
+.text
+{
+    padding: 30px 30px 30px 30px;
+    margin: 40px auto;
+    text-indent: 50px;
+}
+
+.content_box
+{
+    display: flex;
+    align-items: center;
+    flex: fit-content;
+    background-color: floralwhite;
+    box-shadow: -5px -5px 8px rgba(0,0,0,0.2), -5px 5px 8px rgba(0,0,0,0.2), 5px -5px 8px rgba(0,0,0,0.2), 5px 5px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    gap: 20px;
+    padding: 10px 30px 30px 10px;
+    margin: 40px auto;
+    flex-direction: column;
+}
+
+
+
+img.peru_photo_left
+{
+    max-width:400px;
+    max-height:400px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #555;
+}
+
+img.peru_photo_right
+{
+    max-width:400px;
+    max-height:400px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #555;
+}
+
+.content_left
+{
+    display: flex;
+    align-items: normal;
+    justify-content: normal;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 40px auto;
+    text-align: left;
+}
+
+.content_right
+{
+    display: flex;
+    align-items: normal;
+    justify-content: normal;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 40px auto;
+    text-align: left;
+}
+
+.content_left p
+{
+    padding: 10px 10px;
+
+}
+
+.content_right p
+{
+    padding: 10px 10px;
+
+}
+
+aside
+{
+    float: right;
+    display: flex;
+    position: relative;
+    width: 18%;
+    background-color: peachpuff;
+    color: #555555;
+    font-weight: lighter;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.aside_box
+{
+    display: flex;
+    align-items: center;
+    flex: fit-content;
+    background-color: #cee8f0;
+    box-shadow: -5px -5px 8px rgba(0,0,0,0.2), -5px 5px 8px rgba(0,0,0,0.2), 5px -5px 8px rgba(0,0,0,0.2), 5px 5px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    gap: 20px;
+    padding: 30px 30px 30px 30px;
+    margin: 40px auto;
+    flex-direction: column;
+}
