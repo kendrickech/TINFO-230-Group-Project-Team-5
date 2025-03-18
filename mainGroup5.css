@@ -179,6 +179,10 @@ main {
             transform: scale(1.05);
         }
 
+        .location a:hover + h3 {
+            color: #242494b7;
+        }
+
 .location-title {
     color: lightblue;
     font-size: 28px;
