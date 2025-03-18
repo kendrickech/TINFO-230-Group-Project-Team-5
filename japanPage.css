@@ -39,7 +39,7 @@ main > div {
 
 #summary-container img {
     max-width: 40%;
-    height: auto;
+    height: 100%;
     border-radius: 8px;
 }
 
@@ -90,11 +90,13 @@ ul li {
     background-color: #fff;
     padding: 25px 15px;
     width: 30%;
+    display: flex;
+    flex-direction: column;
 }
 
 .log img {
     width: 100%;
-    height: 50%;
+    height: 75vh;
 }
 
 .log p {
