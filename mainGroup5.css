@@ -18,6 +18,7 @@ header, footer {
 
 header {
     font-size: 24px;
+    text-align: center;
 }
 
     header h1 {
@@ -38,7 +39,7 @@ nav {
         text-decoration: none;
         margin: 0 15px;
     }
-
+    
         nav a:hover {
             text-decoration: underline;
         }
@@ -97,17 +98,27 @@ main {
 
             main .featured-locations .photos a {
                 display: block;
+                text-decoration: none;
             }
 
             main .featured-locations .photos img {
-                max-width: 200px;
-                height: auto;
+                width: 150px;
+                height: 100px;
                 border-radius: 10px;
                 transition: transform 0.3s ease;
             }
 
-                main .featured-locations .photos img:hover {
+                main .featured-locations .photos img:hover{
                     transform: scale(1.1);
+                }
+                
+                main .featured-locations .photos a h3 {
+                    margin-top: 2%;
+                    color: lightblue;
+                }
+
+                main .featured-locations .photos img:hover + h3 {
+                    color: #242494b7;
                 }
 
 .team-member {
@@ -156,9 +167,9 @@ main {
 }
 
     .location img {
-        width: 100%;
-        max-width: 300px;
-        height: auto;
+        width: 300px;
+        height: 100%;
+        max-height: 200px;
         border-radius: 10px;
         margin-bottom: 15px;
         transition: transform 0.3s ease;
@@ -182,6 +193,12 @@ main {
     margin: 0 auto;
     max-width: 350px;
 }
+
+h3 {
+    margin-top: 2%;
+    color: lightblue;
+}
+
 
 @media (max-width: 768px) {
     .locations-grid {
